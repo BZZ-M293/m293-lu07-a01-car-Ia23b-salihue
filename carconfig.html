@@ -1,14 +1,47 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <title>Fahrzeug-Konfigurator</title>
+    <meta charset="UTF-8">
+    <title>Fahrzeug-Konfigurator</title>
 
 </head>
 <body>
-
 <h1>Fahrzeug-Konfigurator</h1>
 
+<form action="https://it.bzz.ch/demo/formdata/index.php" method="post">
+    <fieldset>
+        <label>Fahrzeugmodelle:
+            <select name="fahrzeugmodelle">
+                <option>Modell A</option>
+                <option>Modell B</option>
+                <option>Modell C</option>
+                <option>Modell D</option>
+                <option>Modell E</option>
+                <option>Modell F</option>
+                <option>Modell G</option>
+                <option>Modell H</option>
+                <option>Modell I</option>
+                <option>Modell J</option>
+                <option>Modell K</option>
+                <option>Modell L</option>
+                <option>Modell M</option>
+                <option>Modell N</option>
+                <option>Modell O</option>
+            </select>
+        </label>
+    </fieldset>
+    <fieldset>
+        <input type="radio" id="red" name="Autofarbe" value="Red">
+        <label for="red"> Rot</label>
+        <input type="radio" id="blue" name="Autofarbe" value="Blue">
+        <label for="blue"> Blau</label>
+        <input type="radio" id="green" name="Autofarbe" value="Green">
+        <label for="green"> Grün</label>
+        <input type="radio" id="black" name="Autofarbe" value="Black">
+        <label for="black"> Schwarz</label>
+    </fieldset>
+    <button type='submit'>Absenden</button>
+</form>
 
 </body>
 </html>
